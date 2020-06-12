@@ -6,14 +6,14 @@ package test;
   // ^  XOR  A or B but not both
 
 
-public class TestOne {
+public class OneNot {
 	
 	public static void main(String[] args) {
 		int a;
 		boolean b;
 		
 		a = 7;
-		b = true;
+		b = false;
 		if(a != 10)
 			System.out.println("Success!");
 	}

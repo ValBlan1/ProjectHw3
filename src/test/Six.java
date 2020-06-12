@@ -1,6 +1,6 @@
 package test;
 
-public class TestSix {
+public class Six {
 	public static void main(String[] args) {
 		
 		boolean isRainy = true;

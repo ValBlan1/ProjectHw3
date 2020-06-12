@@ -1,6 +1,6 @@
 package test;
 
-public class TestThree {
+public class TwoOr {
 
 	public static void main(String[] args) {
 		int a;
@@ -9,8 +9,9 @@ public class TestThree {
 		a = 10;
 		b = true;
 		
-		if ((a ==10) ^ (b == true))
+		if ((a ==10) || (b == true))
 			System.out.println("Success!");
-	}	
+		
+	}
 
 }
